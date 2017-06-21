@@ -14,6 +14,7 @@
 		CD3AC2C21EF9BCC100B7AC23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3AC2C01EF9BCC100B7AC23 /* LaunchScreen.storyboard */; };
 		CD3AC2CD1EF9BCC100B7AC23 /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3AC2CC1EF9BCC100B7AC23 /* tippyTests.swift */; };
 		CD3AC2D81EF9BCC100B7AC23 /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3AC2D71EF9BCC100B7AC23 /* tippyUITests.swift */; };
+		CD3AC2E61EF9E75200B7AC23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3AC2E51EF9E75200B7AC23 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CD3AC2D31EF9BCC100B7AC23 /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3AC2D71EF9BCC100B7AC23 /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		CD3AC2D91EF9BCC100B7AC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3AC2E51EF9E75200B7AC23 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CD3AC2AB1EF9BCC100B7AC23 = {
 			isa = PBXGroup;
 			children = (
+				CD3AC2E51EF9E75200B7AC23 /* SettingsViewController.swift */,
 				CD3AC2B61EF9BCC100B7AC23 /* tippy */,
 				CD3AC2CB1EF9BCC100B7AC23 /* tippyTests */,
 				CD3AC2D61EF9BCC100B7AC23 /* tippyUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				CD3AC2BA1EF9BCC100B7AC23 /* ViewController.swift in Sources */,
 				CD3AC2B81EF9BCC100B7AC23 /* AppDelegate.swift in Sources */,
+				CD3AC2E61EF9E75200B7AC23 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

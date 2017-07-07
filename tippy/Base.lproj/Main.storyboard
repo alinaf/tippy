@@ -29,19 +29,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blj-Zr-7MS">
-                                <rect key="frame" x="253" y="272" width="85" height="21"/>
+                                <rect key="frame" x="246" y="272" width="85" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.24234201725623117" green="0.3789484362532457" blue="0.40159026015228427" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DgJ-yd-BUJ">
-                                <rect key="frame" x="28" y="333" width="343" height="2"/>
+                                <rect key="frame" x="21" y="333" width="343" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95298725366592407" green="0.92557781934738159" blue="0.86424881219863892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jb1-th-vXw" userLabel="totalLabel">
-                                <rect key="frame" x="253" y="370" width="85" height="21"/>
+                                <rect key="frame" x="246" y="370" width="85" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.24234201725623117" green="0.3789484362532457" blue="0.40159026015228427" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -55,7 +55,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LCa-F2-eOZ">
-                                <rect key="frame" x="45" y="449" width="309" height="29"/>
+                                <rect key="frame" x="38" y="449" width="309" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="15%"/>
@@ -68,7 +68,7 @@
                                 </connections>
                             </segmentedControl>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="How much was your bill?" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hTP-zE-AEZ">
-                                <rect key="frame" x="41" y="112" width="313" height="74"/>
+                                <rect key="frame" x="34" y="112" width="313" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -78,7 +78,7 @@
                                 </connections>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.35899072885513306" green="0.70589441061019897" blue="0.71462160348892212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.3417946084168571" green="0.70984983444213867" blue="0.45818663216432814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="ott-jB-0zn" appends="YES" id="a8F-Rh-8Pc"/>
@@ -124,7 +124,7 @@
                                 <rect key="frame" x="49" y="104" width="235" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.3643094003200531" green="0.56408447027206421" blue="0.59614145755767822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.34179460839999998" green="0.70984983440000005" blue="0.4581866322" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xG5-fb-bk0">
@@ -135,7 +135,7 @@
                                     <segment title="18%"/>
                                     <segment title="20%"/>
                                 </segments>
-                                <color key="tintColor" red="0.44704625010490417" green="0.69775164127349854" blue="0.70984983444213867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.34179460839999998" green="0.70984983440000005" blue="0.4581866322" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
                                     <action selector="defaultTipValue:" destination="1jj-lW-kez" eventType="valueChanged" id="iih-sQ-9rU"/>
                                 </connections>
